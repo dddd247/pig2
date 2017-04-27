@@ -1,0 +1,118 @@
+/*設定區塊*/
+
+div.leftside{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    width: 50%;
+    height: 100%;
+}
+
+div.rightside{
+    position: absolute;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 100%;
+}
+
+/*scaber設計*/
+div.scaber{
+    position: relative;
+    top: 18%;
+    left: 36%;
+    font-size: 2.7em;
+    letter-spacing: 0.2em;
+}
+
+
+/*設定輸入的位置*/
+div.inputform{
+    position: relative;
+    top: 23%;
+    left: 13%;
+}
+
+button.signin{
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+    height: 45px;
+}
+/*設計轉換*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 1);
+
+
+}
+/*連結設計*/
+div.timebar{
+    position: relative;
+    top: 17.8%;
+    left: 10%;
+    height: 0.62%;
+    width: 67%;
+    margin-left: 2.49vw;
+    background-color: rgba(0, 0, 0, 0.11);
+    -moz-border-radius: 20em;
+    -webkit-border-radius: 20em;
+    border-radius: 20em;
+
+}
+div.signbar{
+    text-decoration: none;
+    position: relative;
+    top: 19%;
+    left: 10%;
+    width: 67%;
+    padding-top:10px;
+    padding-left: 0%;
+    margin-left: 2.49vw;
+    font-size: 1em;
+
+}
+a.Forgetpassword{
+    position: relative;
+    left: 25%;
+    font-size: 0.75em;
+
+}
+
+/*設計驗證的圖形格式*/
+img.verify1{
+    position: relative;
+    left: 2%;
+    width: 30%;
+}
+img.verify2{
+    position: relative;
+    left: 10%;
+    width: 30%;
+}
